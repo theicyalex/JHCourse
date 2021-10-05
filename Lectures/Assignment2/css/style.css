@@ -1,0 +1,63 @@
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3 {
+      float: left;
+      border: 1px solid black;
+      background-color: rgb(197, 197, 197);
+    }
+    .col-lg-1 {
+      width: 33.33%;
+    }
+    .col-lg-2 {
+      width: 33.33%;
+    }
+    .col-lg-3 {
+      width: 33.33%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3{
+      float: left;
+      border: 1px solid black;
+      background-color: rgb(197, 197, 197);
+    }
+    .col-md-1 {
+        width: 50%;
+    }
+    .col-md-2 {
+        width: 50%;
+    }
+    .col-md-3 {
+      width: 100%;
+    }
+  }
+
+  
+  /********** Medium devices only **********/
+  @media (max-width: 767px) {
+    .col-md-1, .col-md-2, .col-md-3{
+      float: left;
+      border: 1px solid black;
+      background-color: rgb(197, 197, 197);
+    }
+    .col-md-1 {
+        width: 100%;
+    }
+    .col-md-2 {
+        width: 100%;
+    }
+    .col-md-3 {
+      width: 100%;
+    }
+  }
+  
+.row {
+    margin-bottom: 15px;
+  }
+  .row > div {
+    border: 2px solid red;
+    background-color: gray;
+  }
